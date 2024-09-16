@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+tbody td {
+    background-color: #20B2AA; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+tbody td.col1 {
+    background-color: navy;
+    font-style: italic;
+}

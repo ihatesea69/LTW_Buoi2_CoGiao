@@ -1,0 +1,44 @@
+ul, li, a, span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul.menu {
+    width: 200px;
+    border: 1px solid gray;
+    background-color: white;
+    list-style-type: none;
+}
+
+ul.menu li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+ul.menu li .emoji {
+    width: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    color: red;
+}
+
+ul.menu li a {
+    flex-grow: 1;
+    padding: 10px 5px;
+    border-left: 1px solid gray;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    display: block;
+    background-color: white;
+}
+
+ul.menu li a:hover {
+    border-color: gray;
+    background-color: lightblue;
+    color: black;
+}

@@ -1,0 +1,29 @@
+.figure {
+    float: right;
+    width: 15%;
+    min-width: 150px;
+    border: 1px solid silver; 
+    margin: 10px;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+img.scaled {
+    width: 100%; 
+}
+
+.figure p {
+    text-align: center; 
+    font-size: smaller;
+    font-style: italic; 
+    margin: 0;
+}
+
+.content {
+    text-align: justify; 
+}
+
+.figure {
+    display: inline;
+    position: relative;
+}

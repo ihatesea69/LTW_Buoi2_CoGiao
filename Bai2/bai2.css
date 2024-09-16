@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #cccccc;
+}
+
+thead th {
+    background-color: #eeeeee;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #cccccc;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    vertical-align: top;
+}
+
+tbody td a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
+}
+
+tbody td img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+tbody td span {
+    color: #666666;
+    font-size: 0.9em;
+}
+
+tbody td strong {
+    font-size: 1.1em;
+    color: #333333;
+}
